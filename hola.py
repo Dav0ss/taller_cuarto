@@ -1,4 +1,5 @@
 from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route('/hello')
@@ -38,4 +39,32 @@ def diccionario():
         "id" : 36,
         "nombres" : "Justo"
     }
+    
     return [dicc1, dicc2]
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
